@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: layouts/post.njk
 title: About
 templateClass: tmpl-post
 eleventyNavigation:
