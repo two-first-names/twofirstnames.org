@@ -50,6 +50,10 @@
     <!-- Notably iOS UAs also contain Mac OS X -->
     <script csp-hash>if (/Mac OS X/.test(navigator.userAgent))document.documentElement.classList.add('apple')
     </script>
+
+    <script defer src="/js/brands.min.js"></script>
+    <script defer src="/js/fontawesome.min.js"></script>
+
     <!-- css is inserted by optimize-html custom plugin -->
   </head>
   <body>
@@ -89,6 +93,7 @@
 
     <footer>
       <a href="/about/">{{ metadata.author.name }}</a>
+      <p>Follow me on: <a href="https://tech.lgbt/@twofirstnames"><i class="fa-brands fa-mastodon"></i> tech.lgbt</a> <a href="https://github.com/two-first-names"><i class="fa-brands fa-github"></i> GitHub</a></p> 
     </footer>
 
     <!-- Current page: {{ page.url | url }} -->

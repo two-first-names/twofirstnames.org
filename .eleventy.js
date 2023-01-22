@@ -180,6 +180,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy(GA_ID ? "js" : "js/*[!cached].*");
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("_headers");
+  eleventyConfig.addPassthroughCopy({
+    "node_modules/@fortawesome/fontawesome-free/js/fontawesome.min.js": "js/fontawesome.min.js",
+    "node_modules/@fortawesome/fontawesome-free/js/brands.min.js": "js/brands.min.js"
+  });
 
   // We need to rebuild upon JS change to update the CSP.
   eleventyConfig.addWatchTarget("./js/");
