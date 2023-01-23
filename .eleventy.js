@@ -182,7 +182,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("_headers");
   eleventyConfig.addPassthroughCopy({
     "node_modules/@fortawesome/fontawesome-free/js/fontawesome.min.js": "js/fontawesome.min.js",
-    "node_modules/@fortawesome/fontawesome-free/js/brands.min.js": "js/brands.min.js"
+    "node_modules/@fortawesome/fontawesome-free/js/brands.min.js": "js/brands.min.js",
+    "node_modules/@fortawesome/fontawesome-free/js/solid.min.js": "js/solid.min.js"
   });
 
   // We need to rebuild upon JS change to update the CSP.
