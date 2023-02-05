@@ -67,6 +67,21 @@
             <a href="{{ entry.url | url }}">{{ entry.title }}</a>
           {%- endfor %}
         </div>
+        {% set navPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) %} 
+        <div id="breadcrumbs">
+          {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+          {%- for entry in navPages %}
+            <a href="{{ entry.url | url }}">{{ entry.title }}</a> ->
+          {%- endfor %}
+          <a href="{{ page.url | url }}">{{ title }}</a>
+        </div>
+        {% set navPages = collections.all | eleventyNavigation(eleventyNavigation.key) %}
+        <div id="childnav">
+          {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+          {%- for entry in navPages %}
+            <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+          {%- endfor %}
+        </div>
         <div id="reading-progress" aria-hidden="true"></div>
       </nav>
       <h1>{{ title }}</h1>

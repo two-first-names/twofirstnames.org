@@ -902,6 +902,7 @@ header nav a {
   font-family: var(--font-family);
   color: #181818;
   margin-left: 1.5em;
+  text-align: left;
 }
 header nav a:first-of-type {
   margin-left: auto;
@@ -915,6 +916,29 @@ header nav label {
   margin: 0;
   font-style: normal;
   text-align: right;
+}
+header nav #childnav {
+  float: left;
+  width: 50%;
+  z-index: 2;
+  position: relative;
+}
+header nav #breadcrumbs {
+  text-align: left;
+  float: left;
+  width: 50%;
+  color: #181818;
+  z-index: 2;
+  position: relative;
+}
+header nav #breadcrumbs a {
+  margin-left: 0;
+}
+header nav #breadcrumbs a:first-of-type {
+  margin-left: 0;
+}
+header nav #breadcrumbs a:last-of-type {
+  margin-right: auto;
 }
 main {
   max-width: 70rem;
