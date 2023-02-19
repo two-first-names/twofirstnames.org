@@ -36,12 +36,12 @@ Next, choose one of the three Approaches (Origin, p. 97). Add two dots to each A
 ### Step Five: Callings and Knacks
 Choose three Callings (Hero, p. 190). At least one of your character’s Callings must come from their divine patron’s three Favored Callings.
 
-Your character receives seven[^callingdots] dots among all their Callings, but each must have at least one dot.
+Your character receives six[^callingdots] dots among all their Callings, but each must have at least one dot.
 
 For each Calling, choose a number of Heroic Knacks equal to the Calling’s rating; while they can learn more, they may only have as many active as they have Calling dots. Alternately, you may choose a single Immortal Knack instead
 of two Heroic Knacks for any Calling two dots or higher. If your character is also a creature of Legend, they replace one Calling with one appropriate to their nature (see Hero, p. 310).
 
-[^callingdots]: Five, plus two for being Legend 5 at game start.
+[^callingdots]: Five, plus one for being Legend 3 at game start.
 
 ### Step Six: Birthrights
 Your character receives seven dots to allocate to Birthrights (Hero p. 201). You may choose from the example Birthrights in this book, or design your own.
@@ -52,7 +52,7 @@ Most Scions receive Birthrights tied to their patron’s pantheon, but the Overw
 Your character gains their Pantheon Specialty Purview as an innate Purview (Hero, p. 264). In addition, choose one of your divine patron’s Purviews as an innate Purview. All other Purviews must be drawn from Relics or Guides.
 
 ### Step Eight: Boons
-Choose five[^boons] Boons from any of your character’s Purviews, whether innate or granted by Birthrights.
+Choose three[^boons] Boons from any of your character’s Purviews, whether innate or granted by Birthrights.
 
 ### Step Nine: Finishing Touches
 To finish out your character, fill in the following:
@@ -66,7 +66,7 @@ To finish out your character, fill in the following:
 
 Each player character receives 5 extra Skill dots, an extra Attribute dot, and either two additional Knacks or four points of Birthrights at this point in character creation.
 
-Finally, spend 100 Experience as you wish.
+Finally, spend 50 Experience as you wish.
 
 ### Experience
 
@@ -79,4 +79,4 @@ Finally, spend 100 Experience as you wish.
 | Knack            | Purchase a new Knack                        | 10 Experience |
 | Specialty        | Add a Specialty to a Skill                  | 3 Experience  |
 
-[^boons]: Again, two, plus three for being Legend 5.
+[^boons]: Again, two, plus one for being Legend 3.
